@@ -271,6 +271,7 @@ func Provider() terraform.ResourceProvider {
 			"openstack_sharedfilesystem_snapshot_v2":             dataSourceSharedFilesystemSnapshotV2(),
 			"openstack_keymanager_secret_v1":                     dataSourceKeyManagerSecretV1(),
 			"openstack_keymanager_container_v1":                  dataSourceKeyManagerContainerV1(),
+			"openstack_amphorae_vrrp_ip":                         dataSourceAmphoraeVrrpIp(),
 		},
 
 		ResourcesMap: map[string]*schema.Resource{
